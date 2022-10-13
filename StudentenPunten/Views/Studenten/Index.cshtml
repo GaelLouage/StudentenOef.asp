@@ -1,0 +1,46 @@
+﻿@using Infrastructuur.Entities
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+
+}
+@model List<Student>;
+<style>
+    tr:hover {
+        background-color: lightgray;
+        cursor:pointer;
+    }
+</style>
+<form asp-action="Index">
+    <input name="studentFinder"/>
+    <button type="submit">Find</button>
+</form>
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">FirstName</th>
+            <th scope="col">LastName</th>
+            <th scope="col">Punten</th>
+            <th scope="col">Edit</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in @Model)
+        {
+            <tr>
+
+                <td>@item.FirstName</td>
+                <td>@item.LastName</td>
+                @if(item.Punten < 50)
+                {
+                    <td style="color:red; font-weight:bold;">@item.Punten</td>
+                } else
+                {
+                     <td style="color:green; font-weight:bold;">@item.Punten</td>
+                }
+                   <td><a asp-action="Detail" asp-route-studentName="@item.FirstName">Detail</a></td>
+            </tr>
+        }
+    </tbody>
+</table>

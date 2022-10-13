@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32519.379
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentenPunten", "StudentenPunten\StudentenPunten.csproj", "{AA7743BA-D4F1-43EE-A46C-9C48EB5BB3C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructuur", "Infrastructuur\Infrastructuur.csproj", "{CEA053F5-14CB-4601-9901-A8D2B0F32EE0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA7743BA-D4F1-43EE-A46C-9C48EB5BB3C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA7743BA-D4F1-43EE-A46C-9C48EB5BB3C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA7743BA-D4F1-43EE-A46C-9C48EB5BB3C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA7743BA-D4F1-43EE-A46C-9C48EB5BB3C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEA053F5-14CB-4601-9901-A8D2B0F32EE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEA053F5-14CB-4601-9901-A8D2B0F32EE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEA053F5-14CB-4601-9901-A8D2B0F32EE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEA053F5-14CB-4601-9901-A8D2B0F32EE0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A29C0542-2FAD-4C93-972A-99F17AF7C907}
+	EndGlobalSection
+EndGlobal
